@@ -10,19 +10,11 @@ import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
-    EditText mathText;
-    Button button1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mathText = (EditText)findViewById(R.id.operationsText);
-        button1 = (Button)findViewById(R.id.button1);
-    }
-
-
-    public void click(View view){
-        mathText.setText(button1.getText().toString());
     }
 
     @Override

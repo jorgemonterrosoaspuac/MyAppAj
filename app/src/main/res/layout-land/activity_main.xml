@@ -13,184 +13,201 @@
 
         <TableRow>
             <EditText
-                android:layout_width="400dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/operationsText"
                 android:layout_span="3"
-                android:typeface="serif"
                 android:textSize="30sp"
                 android:textColor="#FF5252"
-                android:height="85dp"
                 android:textIsSelectable="true"
                 android:focusable="false"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:background="#CFD8DC" />
+                android:background="#CFD8DC"
+                android:width="350dp"
+                android:typeface="serif" />
             <Button
                 android:text="CE"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="20sp"
                 android:textColor="#ffffff"
                 android:id="@+id/borrar"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
         </TableRow>
         <TableRow>
             <Button
                 android:text="7"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button7"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:textColor="#ffffff"
                 android:text="8"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:id="@+id/button8"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
-            android:text="9"
-                android:typeface="serif"
-                android:height="85dp"
-            android:textSize="30sp"
-            android:textColor="#ffffff"
-            android:id="@+id/button9"
-            android:background="@android:color/transparent"/>
+                android:text="9"
+                android:width="140dp"
+                android:height="55dp"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/button9"
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="-"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/resta"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
         </TableRow>
         <TableRow>
             <Button
                 android:text="4"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button4"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="5"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button5"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="6"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button6"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="+"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/suma"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
         </TableRow>
         <TableRow>
             <Button
                 android:text="1"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button1"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="2"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button2"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="3"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button3"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="*"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/multi"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
         </TableRow>
         <TableRow>
             <Button
                 android:text="0"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/button0"
                 android:layout_span="2"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="."
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/punto"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="/"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/div"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
         </TableRow>
         <TableRow>
             <Button
                 android:text="="
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:layout_span="2"
                 android:id="@+id/total"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif"
+                style="?android:buttonStyleInset" />
             <Button
                 android:text="√"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/raiz"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
             <Button
                 android:text="^"
-                android:typeface="serif"
-                android:height="85dp"
+                android:width="140dp"
+                android:height="55dp"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 android:id="@+id/potencia"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:typeface="serif" />
 
         </TableRow>
 
